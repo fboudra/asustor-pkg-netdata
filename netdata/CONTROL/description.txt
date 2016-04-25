@@ -1,0 +1,6 @@
+Real-time performance monitoring
+
+netdata is the fastest way to visualize metrics. It is a resource 
+efficient, highly optimized system for collecting and visualizing any 
+type of real-time time series data, from CPU usage, disk activity, 
+SQL queries, API calls, web site visitors, etc.

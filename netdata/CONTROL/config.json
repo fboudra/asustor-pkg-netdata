@@ -1,0 +1,44 @@
+{
+  "register": {
+    "prerequisites": {
+      "enable-service": [],
+      "restart-service": []
+    },
+    "boot-priority": {
+      "stop-order": 80,
+      "start-order": 20
+    },
+    "port": [
+      19999
+    ]
+  },
+  "adm-desktop": {
+    "privilege": {
+      "accessible": "users",
+      "customizable": true
+    },
+    "app": {
+      "url": "/",
+      "type": "custom",
+      "protocol": "http",
+      "port": 19999
+    }
+  },
+  "general": {
+    "website": "https://github.com/firehol/netdata",
+    "maintainer": "Fathi Boudra",
+    "name": "netdata",
+    "package": "netdata",
+    "firmware": "2.5.0",
+    "depends": [],
+    "version": "1.1.0-1",
+    "architecture": "x86-64",
+    "conflicts": [],
+    "model": [
+      "50xx",
+      "51xx"
+    ],
+    "email": "fboudra+adm@gmail.com",
+    "developer": "Costa Tsaousis"
+  }
+}

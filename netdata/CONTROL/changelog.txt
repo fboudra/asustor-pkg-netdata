@@ -1,0 +1,5 @@
+netdata (1.1.0-1)
+
+  * New upstream release.
+
+ -- Fathi Boudra <fboudra+adm@gmail.com>  Tue, 19 Apr 2016 11:29:56 +0200
